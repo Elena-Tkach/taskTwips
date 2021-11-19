@@ -8,3 +8,5 @@
 2. SCSS
 3. Карусель: Swiper.js (плагин)
 4. Mobile first
+
+Cсылка на сайт:http://n909154x.beget.tech/twips/index.html
