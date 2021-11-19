@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Golos";
+    src: url("./fonts/Golos_Regular.woff2") format("woff2"), url("./fonts/Golos_Regular.woff") format("woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Golos";
+    src: url("./fonts/Golos_Medium.woff2") format("woff2"), url("./fonts/Golos_Medium.woff") format("woff");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Golos", "PT Serif", sans-serif;
+    font-size: 17px;
+    line-height: 1.2;
+
+    color: #000;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #ffff;
+    background-image: url("./img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 17px;
+}
+
+@media (min-width: 575px) {
+    .container {
+        max-width: 575px;
+    }
+}
+
+.list {
+    display: flex;
+}
+
+.item {
+    
+    transition: all 0.6s ease-out;
+}
+
+.slide--white {
+    background-color: #ffff;
+}
+
+.title {
+    margin: 0;
+}
+
+.text {
+    padding: 0;
+    margin: 0;
+}
+
+.icon-style {
+    cursor: pointer;
+    background: #ffffff;
+    opacity: 0.9;
+
+    box-shadow: 0px 1px 3px rgba(113, 154, 170, 0.3);
+    border: none;
+    border-radius: 15px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+
+.icon-style:hover {
+    transform: scale(0.97);
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.5);
+}
+
+.header {
+    padding: 8px 0;
+}
+
+.nav__list {
+    justify-content: center;
+}
+
+.nav__item {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+
+    padding: 6px 11px;
+    margin-right: 2%;
+    background: #ffffff40;
+    border-radius: 11px;
+
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+
+.nav__item:hover {
+    transform: scale(0.97);
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.5);
+}
+
+.nav__link-icon {
+    padding: 6px 6px 6px 34px;
+    background: url("./img/bell.png") no-repeat left center;
+}
+
+.nav__btn {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 4px;
+
+    cursor: pointer;
+
+    border: none;
+    background: transparent;
+    border-radius: 11px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.img {
+    margin-right: 4%;
+}

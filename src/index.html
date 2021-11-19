@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preload" href="./fonts/Golos_Medium.woff2" as="font">
+    <link rel="preload" href="./fonts/Golos_Regular.woff2" as="font">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="./normalize.css">
+    <link rel="stylesheet" type="text/css" href="./swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+
+    <script src="script.js" defer type="module"></script>
+    <title>Twips</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="list nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link nav__link-icon">Звенигород</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link nav__link">Отели</a>
+                    </li>
+                    <li class="nav__item"><button class="nav__btn">&hellip;</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="swiper-container js-slide">
+                <ul class="list--slide  swiper-wrapper">
+                    <li class="item slide-1 slide-1__img  swiper-slide">
+                        <div class="slide-1__wrap">
+                            <div class="slide-1__header">
+                                <div class="slide-1__logo">
+                                    <span class="icon__logo"></span>
+                                    <img class="img" src="./img/logo.png" alt="logo">
+                                </div>
+
+                                <button class="icon-style slide-1__btn" type="button"
+                                    aria-label="Написать сообщение"></button>
+                            </div>
+
+                            <div class="slide-1__inner">
+                                <h1 class="slide-1__title title">Татьяна Provence</h1>
+
+                                <ul class="list subtitle">
+                                    <li class="subtitle__text">
+                                        Стильный и элегантный отель в историческом центре города
+                                    </li>
+                                    <li class="subtitle__text">
+                                        Московская, 12
+                                    </li>
+                                </ul>
+
+                                <ul class="list icon">
+                                    <li class="icon__item icon-style"><a class=" icon__link" href="#"></a></li>
+                                    <li class="icon__item icon-style"><a class=" icon__link" href="#"></a></li>
+                                    <li class="icon__item"><button class="icon-style icon__btn" type="button"
+                                            aria-label="Уведомления">14,2K</button></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="item slide-2 slide--white  swiper-slide">
+                        <article class="slide-2__article">
+                            <h2 class="slide-2__title title">Татьяна Provence</h2>
+                            <p class="slide-2__subtitle">Инфо</p>
+
+                            <p class="slide-2__text text">
+                                <span class="text__span">
+                                    Расположенный в самом сердце старинного города Звенигород, всего в нескольких
+                                    шагах
+                                    от
+                                    Саввино-Сторожевского монастыря и реки Москвы, отель Татьяна PROVENCE приглашает
+                                    вас
+                                    насладиться уютом и комфортом неспешной загородной жизни.
+                                </span>
+
+                                Стильный и элегантный, наполненный светом и теплом, отель Татьяна PROVENCE —
+                                идеальное
+                                место, как для отдыха в кругу семьи и близких друзей, так и для проведения
+                                переговоров и
+                                деловых встреч. Его изысканные интерьеры, выполненные в мягких пастельных красках,
+                                современное оснащение и высочайший уровень сервиса, станут лучшим поводом доверить
+                                нам
+                                проведение самых
+
+                            </p>
+
+                            <span class="overlay"></span>
+                        </article>
+                    </li>
+
+                    <li class="item slide-3 slide--white  swiper-slide">
+                        <div class="slide-3__wrap">
+                            <h2 class="slide-3__title title">Татьяна Provence</h2>
+                            <p class="slide-3__subtitle">Cсылки</p>
+
+                            <ul class="list links">
+                                <li class="links__item"><a href="#" class="link"> Официальный сайт</a>
+
+                                </li>
+                                <li class="links__item">
+                                    <a href="https://www.instagram.com/" class="link-inst"> tatiana.provence</a>
+                                </li>
+                                <li class="links__item">
+                                    <a href="https://twitter.com/" class="link-tw">tatiana_provence_hotel</a>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="list dots js-pagination">
+                    <li class="dot__item swiper-pagination-bullet"></li>
+                    <li class="dot__item swiper-pagination-bullet"></li>
+                    <li class="dot__item swiper-pagination-bullet"></li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
